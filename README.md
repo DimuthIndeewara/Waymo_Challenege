@@ -24,10 +24,10 @@ Three model variants are developed:
    - A classic encoder-decoder Convolutional Neural Network (CNN) architecture, adapted for dense prediction tasks in autonomous driving. It captures spatial context from Bird’s Eye View (BEV) representations using symmetric skip connections, enabling fine-grained pixel-level predictions
 
 2. **UNet-LSTM**  
-   - Integrates ConvLSTM layers to capture temporal dependencies.
+   - An enhanced version of U-Net with ConvLSTM layers integrated into the bottleneck. This allows the model to handle spatio-temporal sequences, learning how occupancy and motion evolve over time from past frames
 
 3. **Attention UNet-LSTM**  
-   - Adds an attention mechanism to focus on high-impact spatial regions.
+   - The most advanced variant, this model adds an attention mechanism before the ConvLSTM layers. It allows the network to focus on the most relevant spatial regions such as active agents, intersections, or occluded zones—improving both interpretability and accuracy
 
 ---
 
