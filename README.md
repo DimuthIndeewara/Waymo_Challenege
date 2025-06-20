@@ -1,6 +1,6 @@
 # 🚗 Occupancy and Flow Prediction in the Waymo Dataset
 
-![Screenshot](Waymo Open Challenge.png)
+![Screenshot](Waymo Open Challenge.jpg)
 
 This repository presents a deep learning framework designed to predict **occupancy grids** and **motion flow fields** using the [Waymo Open Motion Dataset (WOMD)](https://waymo.com/open/). The project sets a strong baseline for solving key tasks in autonomous vehicle scene understanding, focusing on spatial-temporal prediction of multiple agents (vehicles, pedestrians, etc.).
 
