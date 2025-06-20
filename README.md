@@ -21,7 +21,7 @@ Autonomous vehicles rely on accurate motion prediction to make safe, intelligent
 Three model variants are developed:
 
 1. **U-Net**  
-   - Encoder-decoder CNN for spatial feature extraction.
+   - A classic encoder-decoder Convolutional Neural Network (CNN) architecture, adapted for dense prediction tasks in autonomous driving. It captures spatial context from Bird’s Eye View (BEV) representations using symmetric skip connections, enabling fine-grained pixel-level predictions
 
 2. **UNet-LSTM**  
    - Integrates ConvLSTM layers to capture temporal dependencies.
