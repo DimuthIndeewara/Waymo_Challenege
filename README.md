@@ -1,4 +1,4 @@
-# 🚗 Occupancy and Flow Prediction Challenge in the Waymo Dataset
+# Occupancy and Flow Prediction Challenge in the Waymo Dataset 🚗
 
 ![Screenshot](Waymo_Open_Challenge.jpg)
 
